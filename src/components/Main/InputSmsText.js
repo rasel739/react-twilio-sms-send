@@ -38,7 +38,7 @@ const InputSmsText = () => {
   };
 
   const messageapi = (data, url) => {
-    fetch(`http://localhost:8080/${url}`, {
+    fetch(`https://react-twilio-sms-server.herokuapp.com/${url}`, {
       method: "POST",
       headers: { "content-type": "application/json" },
       body: JSON.stringify(data),
