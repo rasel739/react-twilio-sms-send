@@ -1,0 +1,32 @@
+/*Navigation Section*/
+.mainContainer {
+  background-color: #1f304c;
+}
+
+.navTextColor {
+  color: rgb(153, 148, 148);
+}
+.brandImgStyle {
+  width: 3rem;
+  height: 4rem;
+}
+
+/*Input Sms Text Section*/
+
+.inputContainer {
+  background-color: #d7e5f0;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+.inputStar {
+  color: red;
+}
+
+/*Footer Style Section*/
+.footerContainer {
+  background-color: #1f304c;
+  color: white;
+  text-align: center;
+  padding-top: 2rem;
+  padding-bottom: 5rem;
+}
